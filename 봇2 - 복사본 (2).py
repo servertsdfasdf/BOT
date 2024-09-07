@@ -7,7 +7,6 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 import io
 
-def a():
     # 디스코드 봇 토큰
     TOKEN = 'MTI3MTc0MjgyODEwNzY2NTQ2Mg.GTbkr7.4lcPfkh_v8qnl1oOVLF3sFytGcktQl4Kpyhzj0'
 
@@ -49,6 +48,3 @@ def a():
 
     # 봇 실행
     bot.run(TOKEN)
-
-
-a()
